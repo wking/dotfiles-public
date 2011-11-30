@@ -1,0 +1,31 @@
+# enable programmable completion
+#
+# You don't need to enable this if it's already enabled globally for
+# your system.
+
+if [ "${OS}" = 'Gentoo' ]; then
+	# Gentoo-based systems 
+	#
+	# Bash completion comes from the 'app-shells/bash_completion' package,
+	# which stores the initialization script in
+	#   /etc/profile.d/bash_completion.sh
+	if [ -f /etc/profile.d/bash_completion.sh ]; then
+		. /etc/profile.d/bash_completion.sh
+	fi
+elif [ "${OS}" = 'Debian' ] || [ "${OS}" = 'Ubuntu' ]; then
+	# Debian-based systems
+	#
+	# Bash completion comes from the 'bash' package, which stores the
+	# initialization script in
+	#   /etc/bash_completion
+	# You won't need to enable this if you uncommented the appropriate
+	# section in /etc/bash.bashrc.
+	if [ -f /etc/bash_completion ]; then
+		. /etc/bash_completion
+	fi
+fi
+
+# bugs-everywhere completion
+#if [ -f ~/.be-completion.sh ]; then
+#	source ~/.be-completion.sh
+#fi

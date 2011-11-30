@@ -7,11 +7,9 @@
 # past this point for scp and rcp, and it's important to refrain from
 # outputting anything in those cases.
 if [[ $- != *i* ]] ; then
-    # Shell is non-interactive.  Be done now!
-    return
+	# Shell is non-interactive.  Be done now!
+	return
 fi
-
-#source .bashrc.d/local_paths
 
 # If not running interactively, don't do anything else
 [ -z "$PS1" ] && return
@@ -24,17 +22,11 @@ export HISTCONTROL=ignoreboth
 # update the values of LINES and COLUMNS.
 shopt -s checkwinsize
 
-source ~/.bashrc.d/environment
-#source ~/.bashrc.d/screen
-#source ~/.bashrc.d/completion
-#source ~/.bashrc.d/nobeep
-#source ~/.bashrc.d/lesspipe
-source ~/.bashrc.d/ssh_agent
-source ~/.bashrc.d/gpg_agent
+for FILE in ~/.bashrc.d/*; do
+	if [ -f "${FILE}" ]; then
+		source "${FILE}"
+	fi
+done
 
-# load aliases
-if [ -f ~/.bash_aliases ]; then
-    . ~/.bash_aliases
-fi
-
-source ~/src/dotfiles/public/src/.bashrc.d/dotfiles
+# reduce environment pollution
+unset FILE

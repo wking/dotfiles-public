@@ -1,0 +1,19 @@
+# Detect the type of system we're running on
+#
+# This makes it easy to adjust script locations and so forth to match
+# your system's file placement and other quirks.
+
+if [ -z "${OS}" ]; then
+	export OS='UNKNOWN'
+	if [ -f '/etc/make.conf' ]; then
+		export OS='Gentoo'
+	elif [ "${SHELL#*gentoo}" != "${SHELL}" ]; then  # assumes 'gentoo' in prefix
+		export OS='Gentoo Prefix'
+	elif ! grep -i debian /etc/issue; then
+		export OS='Debian'
+	elif ! grep -i ubuntu /etc/issue; then
+		export OS='Ubuntu'
+	else
+		echo "unknown system.  Adjust .bashrc.d/01detect_system or set OS by hand" >&2
+	fi
+fi
