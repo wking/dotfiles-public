@@ -9,9 +9,9 @@ if [ -z "${OS}" ]; then
 		export OS='Gentoo'
 	elif [ "${SHELL#*gentoo}" != "${SHELL}" ]; then  # assumes 'gentoo' in prefix
 		export OS='Gentoo Prefix'
-	elif ! grep -i debian /etc/issue; then
+	elif grep -i debian /etc/issue > /dev/null 2>&1; then
 		export OS='Debian'
-	elif ! grep -i ubuntu /etc/issue; then
+	elif grep -i ubuntu /etc/issue > /dev/null 2>&1; then
 		export OS='Ubuntu'
 	else
 		echo "unknown system.  Adjust .bashrc.d/01detect_system or set OS by hand" >&2
