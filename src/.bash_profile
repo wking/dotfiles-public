@@ -2,7 +2,7 @@
 
 # set PATH so it includes user's private bin if it exists
 if [ -d ~/bin ]; then
-    PATH=~/bin:"${PATH}"
+    PATH=~/bin:"${PATH}":/usr/sbin:/sbin
 fi
 
 # The following line runs your .bashrc and is recommended by the bash
