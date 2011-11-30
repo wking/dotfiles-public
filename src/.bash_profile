@@ -1,13 +1,13 @@
 # This file is sourced by bash for login shells.
 
-# The following line runs your .bashrc and is recommended by the bash
-# info pages.
-[[ -f ~/.bashrc ]] && . ~/.bashrc
-
 # set PATH so it includes user's private bin if it exists
 if [ -d ~/bin ]; then
     PATH=~/bin:"${PATH}"
 fi
+
+# The following line runs your .bashrc and is recommended by the bash
+# info pages.
+[[ -f ~/.bashrc ]] && . ~/.bashrc
 
 #exec screen -R # automatically attach to first detached session if it exists
 
