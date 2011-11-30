@@ -1,6 +1,3 @@
-# path to local dotfiles checkout
-export DOTFILES_DIR=~/"src/dotfiles"
-
 # define default programs
 export EDITOR="/usr/bin/emacs -nw"
 export PAGER="less"

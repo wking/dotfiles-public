@@ -24,17 +24,17 @@ export HISTCONTROL=ignoreboth
 # update the values of LINES and COLUMNS.
 shopt -s checkwinsize
 
-source .bashrc.d/environment
-#source .bashrc.d/screen
-#source .bashrc.d/completion
-#source .bashrc.d/nobeep
-#source .bashrc.d/lesspipe
-source .bashrc.d/ssh_agent
-source .bashrc.d/gpg_agent
+source ~/.bashrc.d/environment
+#source ~/.bashrc.d/screen
+#source ~/.bashrc.d/completion
+#source ~/.bashrc.d/nobeep
+#source ~/.bashrc.d/lesspipe
+source ~/.bashrc.d/ssh_agent
+source ~/.bashrc.d/gpg_agent
 
 # load aliases
 if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 
-source "${DOTFILES_DIR}/src/.bashrc.d/dotfiles"
+source ~/src/dotfiles/public/src/.bashrc.d/dotfiles
