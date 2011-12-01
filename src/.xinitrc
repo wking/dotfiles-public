@@ -15,6 +15,8 @@ if [ -e /usr/bin/asus_acpid ]; then
 fi
 
 # Set up keybindings
-xmodmap ~/.Xmodmap
+if [ -n $(which xmodmap) ]; then
+	xmodmap ~/.Xmodmap
+fi
 
 exec startfluxbox
