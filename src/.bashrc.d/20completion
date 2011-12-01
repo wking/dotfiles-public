@@ -20,7 +20,7 @@ elif [ "${OS}" = 'Debian' ] || [ "${OS}" = 'Ubuntu' ]; then
 	#   /etc/bash_completion
 	# You won't need to enable this if you uncommented the appropriate
 	# section in /etc/bash.bashrc.
-	if [ -f /etc/bash_completion ]; then
+	if [ -f /etc/bash_completion ] && [ -z "${BASH_COMPLETION}" ]; then
 		. /etc/bash_completion
 	fi
 fi
