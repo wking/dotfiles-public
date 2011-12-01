@@ -1,0 +1,5 @@
+if [ "${OS}" != 'Gentoo' ] && [ "${OS}" != 'Gentoo Prefox' ]; then
+	# Enable history appending instead of overwriting.
+	# https://bugs.gentoo.org/show_bug.cgi?id=139609
+	shopt -s histappend
+fi
