@@ -2,9 +2,16 @@
 ! Following http://www.in-ulm.de/~mascheck/X11/input8bit.html
 ! get keycodes with xev
 
+! Use Alt_R for Mode_switch
 keycode 108 = Mode_switch
+
 !clear mod3
 !add mod3 = Mode_switch
+
+! Compose key with Super_R
+keycode 134 = Multi_key
+! Compose key with Menu (for keyboards without Super_R)
+keycode 135 = Multi_key
 
 ! U208* is subscript *
 ! U00B9 is superscript one
@@ -99,5 +106,3 @@ keycode  60 = period greater includes U22C5
 keycode  61 = slash question rightarrow questiondown
 ! U00A0 is a no-break space
 keycode  65 = space space U00A0 U00A0
-! Compose key with my right function key
-keycode 134 = Multi_key
