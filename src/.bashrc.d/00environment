@@ -2,4 +2,9 @@
 export EDITOR="/usr/bin/emacs -nw"
 export PAGER="less"
 
+# per-user host aliases.  See hostname(7)
+if [ -f ~/.hosts ]; then
+	export HOSTALIASES=~/.hosts
+fi
+
 export MONKEYSPHERE_CHECK_KEYSERVER=false
