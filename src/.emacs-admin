@@ -6,7 +6,7 @@
 ; Lisp comments begin with a ";"
 
 ; Emacs Load Path
-(setq load-path (cons "~/.emacs.d/load" load-path))
+(add-to-list 'load-path "~/.emacs.d/site-lisp/")
 
 ; Load useful customizations
 (load "wtk_common.el")
