@@ -17,6 +17,7 @@
 (load "wtk_epa.el")
 (load "wtk_org.el")
 (load "wtk_no-vc.el")
+(load "wtk_ansi-color.el")
 
 (require 'cython-mode)
 
