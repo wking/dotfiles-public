@@ -1,6 +1,6 @@
 include "%L"
 
-<Multi_key> <h> <o> <m> <e> : "http://physics.drexel.edu/~wking"  # Home page
+<Multi_key> <h> <o> <m> <e> : "http://tremily.us/"  # Home page
 
 <Multi_key> <p> <r> <o> <p> : "∝" U221D # PROPORTIONAL TO
 Multi_key> <asciitilde> <equal> : "≈" U2248 # ALMOST EQUAL TO
