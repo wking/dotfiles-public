@@ -4,10 +4,10 @@ if [ -d ~/lib ]; then
 fi
 
 # append personal manpages to manpath
-export MANPATH=":$HOME/share/man"
+export MANPATH=":$HOME/.local/share/man"
 
 # personalize latex path
-export TEXINPUTS=":.:$HOME/projects/latex/common/"
+export TEXINPUTS=":.:$HOME/.local/share/texmf/"
 
 # personalize font path (Gnuplot uses gd to find fancy fonts)
 GDFONTPATH="";
@@ -23,14 +23,14 @@ export GDFONTPATH
 # packages into ~/.local, which Python will pick up automatically.
 # This snippet is a relic of the days before `--user` when I used
 # `--prefix $HOME`.
-PYTHON_VERSION=$(python -c 'import sys; print ".".join([str(i) for i in sys.version_info[:2]])')
-export PYTHONPATH=".:$HOME/lib/python:$HOME/lib/python$PYTHON_VERSION/site-packages:$HOME/.python"
+#PYTHON_VERSION=$(python -c 'import sys; print ".".join([str(i) for i in sys.version_info[:2]])')
+#export PYTHONPATH=".:$HOME/lib/python:$HOME/lib/python$PYTHON_VERSION/site-packages"
 
 # personalize Java path (found by tracing from `which javac`)
-export JAVA_HOME=/usr/lib/jvm/java-6-openjdk/
+#export JAVA_HOME=/usr/lib/jvm/java-6-openjdk/
 
 # personalize ruby and rubygems paths
 # from http://docs.rubygems.org/read/chapter/15
-PREFIX=$HOME
-export GEM_HOME=$PREFIX/lib/ruby/gems/1.8
-export RUBYLIB=$PREFIX/lib/ruby:$PREFIX/lib/site_ruby/1.8
+#PREFIX=$HOME
+#export GEM_HOME=$PREFIX/lib/ruby/gems/1.8
+#export RUBYLIB=$PREFIX/lib/ruby:$PREFIX/lib/site_ruby/1.8
