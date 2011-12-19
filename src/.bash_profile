@@ -13,6 +13,7 @@ fi
 
 # print my calendar if I've configured it
 # http://bsdcalendar.sourceforge.net/  (Gentoo: app-misc/calendar)
-if [ -f ~/.calendar/calendar ]; then
+CALENDAR=$(which calendar 2> /dev/null)
+if [ -n "${CALENDAR}" ] && [ -f ~/.calendar/calendar ]; then
     calendar
 fi
