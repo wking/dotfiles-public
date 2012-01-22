@@ -1,0 +1,13 @@
+# default formatting options for Artistic Style
+--style=linux     # Linux (kernel) style brackets
+--indent=tab=2    # Indent using tab characters, treat each tab as 2 spaces
+--indent-classes  # Indent 'public:', 'protected:' and 'private:'
+--indent-switches # indent 'case X:'
+--convert-tabs    # Converts non-indentation tabs into spaces
+--min-conditional-indent=2
+--max-instatement-indent=40  # Maximum spaces to indent a continuation line
+--pad-oper        # Insert space padding around operators
+--unpad-paren     # Remove extra space padding around parenthesis
+--pad-header      # Insert space padding after paren headers (e.g. 'if', 'for')
+--add-brackets    # Add brackets to unbracketed one line conditionals
+--align-pointer=name  # Attach * and & to the variable name
