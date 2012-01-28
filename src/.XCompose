@@ -39,6 +39,9 @@ Multi_key> <equal> <equal> : "≡" U2261 # IDENTICAL TO
 <Multi_key> <e> <m> <f> : "ℰ" U2130 # SCRIPT CAPIPAL E (electromotive force)
 <Multi_key> <minus> <h> : "ℏ" U2105 # PLANC CONSTANT OVER TWO PI
 
+<Multi_key> <underscore> <i> : "ᵢ" U1D62 # LATIN SUBSCRIPT SMALL LETTER I
+<Multi_key> <underscore> <r> : "ᵣ" U1D63 # LATIN SUBSCRIPT SMALL LETTER R
+
 "ﬀ" UFB00 # LATIN SMALL LIGATURE FF
 "ﬁ" UFB01 # LATIN SMALL LIGATURE FI
 "ﬂ" UFB02 # LATIN SMALL LIGATURE FL
