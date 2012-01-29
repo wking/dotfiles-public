@@ -41,6 +41,9 @@ Multi_key> <equal> <equal> : "≡" U2261 # IDENTICAL TO
 
 <Multi_key> <underscore> <i> : "ᵢ" U1D62 # LATIN SUBSCRIPT SMALL LETTER I
 <Multi_key> <underscore> <r> : "ᵣ" U1D63 # LATIN SUBSCRIPT SMALL LETTER R
+<Multi_key> <i> <m> : "ℑ" U2111 # BLACK-LETTER CAPITAL I
+<Multi_key> <r> <e> : "ℜ" U211C # BLACK-LETTER CAPITAL R
+
 
 "ﬀ" UFB00 # LATIN SMALL LIGATURE FF
 "ﬁ" UFB01 # LATIN SMALL LIGATURE FI
