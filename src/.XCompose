@@ -44,6 +44,7 @@ Multi_key> <equal> <equal> : "≡" U2261 # IDENTICAL TO
 <Multi_key> <i> <m> : "ℑ" U2111 # BLACK-LETTER CAPITAL I
 <Multi_key> <r> <e> : "ℜ" U211C # BLACK-LETTER CAPITAL R
 
+<Multi_key> <s> <e> <c> : "§" U00A7 # SECTION SIGN
 
 "ﬀ" UFB00 # LATIN SMALL LIGATURE FF
 "ﬁ" UFB01 # LATIN SMALL LIGATURE FI
