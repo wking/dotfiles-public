@@ -4,7 +4,7 @@ if [ -d ~/lib ]; then
 fi
 
 # append personal manpages to manpath
-export MANPATH=":$HOME/.local/share/man"
+export MANPATH="$MANPATH:$HOME/.local/share/man"
 
 # personalize latex path
 export TEXINPUTS=":.:$HOME/.local/share/texmf/"
