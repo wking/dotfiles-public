@@ -1,8 +1,16 @@
 # Make file system utilities friendlier
-alias rm='rm -iv'
-alias rmdir='rmdir -v'
-alias cp='cp -iv'
-alias mv='mv -iv'
+if [ "$OS" == 'SunOS' ]; then
+	# SunOS 5.10 utilities don't support the -v (verbose) option.
+	alias rm='rm -i'
+	alias cp='cp -i'
+	alias mv='mv -i'
+else
+	alias rm='rm -iv'
+	alias rmdir='rmdir -v'
+	alias cp='cp -iv'
+	alias mv='mv -iv'
+fi
+
 alias less='less -R'
 
 # Configure useful programs
@@ -25,14 +33,16 @@ alias scanletter='scanimage -d 'epkowa:interpreter:001:003' --quick-format Lette
 
 # enable color support of ls and also add handy aliases
 if [ "$TERM" != "dumb" ] && [ -x /usr/bin/dircolors ]; then
-    eval "`dircolors -b`"
-    alias ls='ls --color=auto'
-    #alias dir='ls --color=auto --format=vertical'
-    #alias vdir='ls --color=auto --format=long'
+	eval "`dircolors -b`"
+	alias ls='ls --color=auto'
+	#alias dir='ls --color=auto --format=vertical'
+	#alias vdir='ls --color=auto --format=long'
 
-    alias grep='grep --color=auto'
-    #alias fgrep='fgrep --color=auto'
-    #alias egrep='egrep --color=auto'
+	if [ "$OS" != 'SunOS' ]; then
+		alias grep='grep --color=auto'
+		#alias fgrep='fgrep --color=auto'
+		#alias egrep='egrep --color=auto'
+	fi  # SunOS 5.10's grep doesn't support --color
 fi
 
 # some more ls aliases
