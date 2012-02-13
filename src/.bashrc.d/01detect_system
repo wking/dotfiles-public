@@ -15,6 +15,8 @@ if [ -z "${OS}" ]; then
 		export OS='Ubuntu'
 	elif grep -i fedora /etc/issue > /dev/null 2>&1; then
 		export OS='Fedora'
+	elif grep -i sunos /etc/motd > /dev/null 2>&1; then
+		export OS='SunOS'
 	else
 		echo "unknown system.  Adjust .bashrc.d/01detect_system or set OS by hand" >&2
 	fi
