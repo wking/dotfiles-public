@@ -10,12 +10,14 @@ export MANPATH="$MANPATH:$HOME/.local/share/man"
 export TEXINPUTS=":.:$HOME/.local/share/texmf/"
 
 # personalize font path (Gnuplot uses gd to find fancy fonts)
-GDFONTPATH="";
-for x in $(find /usr/share/fonts/ -type d); do
-  GDFONTPATH="$GDFONTPATH:$x";
-done;
-GDFONTPATH="${GDFONTPATH:1}";
-export GDFONTPATH
+if [ -d /usr/share/fonts/ ]; then
+	GDFONTPATH="";
+	for x in $(find /usr/share/fonts/ -type d); do
+		GDFONTPATH="$GDFONTPATH:$x";
+	done;
+	GDFONTPATH="${GDFONTPATH:1}";
+	export GDFONTPATH
+fi
 
 # personalize python path
 #
