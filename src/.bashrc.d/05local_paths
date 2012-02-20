@@ -18,6 +18,8 @@ if [ -d /usr/share/fonts/ ]; then
 	GDFONTPATH="${GDFONTPATH:1}";
 	export GDFONTPATH
 fi
+# Minimize environment pollution
+unset x
 
 # personalize python path
 #
