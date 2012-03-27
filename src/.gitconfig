@@ -4,3 +4,12 @@
 	name = W. Trevor King
 	email = wking@drexel.edu
 	signingkey = 0xFC29BDCDF15F5BE8
+
+[format]
+	thread = true
+
+[sendemail]
+	from = W. Trevor King <wking@drexel.edu>
+	cc-cmd = /home/wking/bin/git-cc
+	aliasesfile = /home/wking/.mutt/aliases
+	aliasfiletype = mutt
