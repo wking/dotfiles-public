@@ -39,8 +39,17 @@ Multi_key> <equal> <equal> : "≡" U2261 # IDENTICAL TO
 <Multi_key> <e> <m> <f> : "ℰ" U2130 # SCRIPT CAPIPAL E (electromotive force)
 <Multi_key> <minus> <h> : "ℏ" U2105 # PLANC CONSTANT OVER TWO PI
 
+<Multi_key> <asciicircum> <i> : "ⁱ" U2071 # SUPERSCRIPT LATIN SMALL LETTER I
+<Multi_key> <asciicircum> <n> : "ⁿ" U207F # SUPERSCRIPT LATIN SMALL LETTER N
+<Multi_key> <underscore> <a> : "ₐ" U2090 # LATIN SUBSCRIPT SMALL LETTER A
+<Multi_key> <underscore> <e> : "ₑ" U2091 # LATIN SUBSCRIPT SMALL LETTER E
 <Multi_key> <underscore> <i> : "ᵢ" U1D62 # LATIN SUBSCRIPT SMALL LETTER I
+<Multi_key> <underscore> <j> : "ⱼ" U2C7C # LATIN SUBSCRIPT SMALL LETTER J
+<Multi_key> <underscore> <o> : "ₒ" U2092 # LATIN SUBSCRIPT SMALL LETTER O
 <Multi_key> <underscore> <r> : "ᵣ" U1D63 # LATIN SUBSCRIPT SMALL LETTER R
+<Multi_key> <underscore> <u> : "ᵤ" U1D64 # LATIN SUBSCRIPT SMALL LETTER U
+<Multi_key> <underscore> <v> : "ᵥ" U1D65 # LATIN SUBSCRIPT SMALL LETTER V
+<Multi_key> <underscore> <x> : "ₓ" U2093 # LATIN SUBSCRIPT SMALL LETTER X
 <Multi_key> <i> <m> : "ℑ" U2111 # BLACK-LETTER CAPITAL I
 <Multi_key> <r> <e> : "ℜ" U211C # BLACK-LETTER CAPITAL R
 
