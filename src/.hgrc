@@ -2,6 +2,9 @@
 [ui]
 username = W. Trevor King <wking@drexel.edu>
 
+[web]
+cacerts = /etc/ssl/certs/ca-certificates.crt
+
 [extensions]
 hgext.churn =
 hgext.convert =
