@@ -3,8 +3,8 @@ include "%L"
 <Multi_key> <h> <o> <m> <e> : "http://tremily.us/"  # Home page
 
 <Multi_key> <p> <r> <o> <p> : "∝" U221D # PROPORTIONAL TO
-Multi_key> <asciitilde> <equal> : "≈" U2248 # ALMOST EQUAL TO
-Multi_key> <equal> <equal> : "≡" U2261 # IDENTICAL TO
+<Multi_key> <asciitilde> <equal> : "≈" U2248 # ALMOST EQUAL TO
+<Multi_key> <equal> <equal> : "≡" U2261 # IDENTICAL TO
 
 <Multi_key> <minus> <minus> : "−" U2212 # MINUS SIGN
 <Multi_key> <minus> <plus> : "∓" U2213 # MINUS-OR-PLUS SIGN
