@@ -10,6 +10,6 @@
 
 [sendemail]
 	from = W. Trevor King <wking@drexel.edu>
-	cc-cmd = /home/wking/bin/git-cc
+	cccmd = /home/wking/bin/git-cc
 	aliasesfile = /home/wking/.mutt/aliases
 	aliasfiletype = mutt
