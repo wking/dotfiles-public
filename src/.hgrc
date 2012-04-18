@@ -1,6 +1,6 @@
 # .hgrc a Mercurial configuration file
 [ui]
-username = W. Trevor King <wking@drexel.edu>
+username = W. Trevor King <wking@tremily.us>
 
 [web]
 cacerts = /etc/ssl/certs/ca-certificates.crt
