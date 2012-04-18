@@ -19,8 +19,7 @@ alias lpb='/usr/bin/lp -o sides=two-sided-long-edge -o media=letter -o cpi=12 -o
 alias lpi='/usr/bin/lp -o fitplot'
 alias emacs='emacs -nw'
 alias xterm='xterm -fg white -bg black'
-alias w3mg='w3m http://www.google.com'
-alias w3mh='w3m http://www.physics.drexel.edu/~wking/'
+alias w3mg='w3m http://www.google.com/'
 #alias calendar='calendar -A28'
 alias oggr='ogg123 -qb 500' # play ogg radio streams (quiet, big input buffer)
 
