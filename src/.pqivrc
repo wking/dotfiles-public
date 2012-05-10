@@ -1,6 +1,6 @@
 -1 "cache-file.sh -l saves"
 -2 "cache-file.sh trash"
-
+-3 "cache-file.sh -r"
 -4 "cache-file.sh good"
 -5 "cache-file.sh empty"
 -6 "cache-file.sh crud"
