@@ -1,4 +1,4 @@
-image/*;	qiv %s; test=test -n "$DISPLAY"
+image/*;	pqiv %s; test=test -n "$DISPLAY"
 image/*;	fbi -a %s; test=test "$TERM" == "linux"; needsterminal
 audio/*;	mplayer %s;
 text/html;	/usr/bin/firefox %s; test=test -n "$DISPLAY"; description=HTML Text; nametemplate %s.html
