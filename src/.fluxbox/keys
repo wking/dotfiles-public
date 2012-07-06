@@ -139,6 +139,7 @@ Mod1 t :ExecCommand xterm -fg white -bg black -fa mono-medium
 Mod1 f :ExecCommand firefox
 Control Mod1 l :ExecCommand xlock -mode blank
 Mod1 c :ToggleCmd {Exec conky} {pkill conky}
+Print :ExecCommand import -window root /tmp/screenshot.png
 
 # current window commands
 Mod1 i :Move 0 -10
