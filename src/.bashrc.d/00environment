@@ -8,3 +8,5 @@ if [ -f ~/.hosts ]; then
 fi
 
 export MONKEYSPHERE_CHECK_KEYSERVER=false
+
+export SANE_DEFAULT_DEVICE='epkowa:interpreter:001:003'

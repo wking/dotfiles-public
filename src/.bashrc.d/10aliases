@@ -28,7 +28,7 @@ alias findex='find . -perm -u+x ! -type d'
 alias sortdat='find . -printf "%TY-%Tm-%Td+%TH:%TM:%TS %h/%f\n" | sort -n'
 alias sortdirdat='find . -type d -printf "%TY-%Tm-%Td+%TH:%TM:%TS %h/%f\n" | sort -n'
 alias pythonhttp='python -m SimpleHTTPServer 8000'
-alias scanletter='scanimage -d 'epkowa:interpreter:001:003' --quick-format Letter --format=tiff'
+alias scanletter='scanimage --quick-format Letter --format=tiff'
 
 # enable color support of ls and also add handy aliases
 if [ "$TERM" != "dumb" ] && [ -x /usr/bin/dircolors ]; then
