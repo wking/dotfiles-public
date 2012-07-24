@@ -5,7 +5,7 @@
 
 if [ -z "${OS}" ]; then
 	export OS='UNKNOWN'
-	if [ -f '/etc/make.conf' ]; then
+	if [ -f '/etc/make.conf' ] || [ -f '/etc/portage/make.conf' ]; then
 		export OS='Gentoo'
 	elif [ "${SHELL#*gentoo}" != "${SHELL}" ]; then  # assumes 'gentoo' in prefix
 		export OS='Gentoo Prefix'
