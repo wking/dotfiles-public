@@ -5,6 +5,9 @@
 	email = wking@tremily.us
 	signingkey = 0xFC29BDCDF15F5BE8
 
+[push]
+	default = matching
+
 [format]
 	thread = true
 
