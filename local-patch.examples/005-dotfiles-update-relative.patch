@@ -1,0 +1,9 @@
+--- a/.bashrc.d/90dotfiles
++++ b/.bashrc.d/90dotfiles
+@@ -2,5 +2,5 @@
+ 
+ DS="$(which dotfiles.sh)"
+ if [ -n "${DS}" ] && [ -f "${DS}" ] && [ -x "${DS}" ]; then
+-	"${DS}" --dotfiles-dir ~/src/dotfiles update
++	"${DS}" --dotfiles-dir ~/src/dotfiles update --relative
+ fi
