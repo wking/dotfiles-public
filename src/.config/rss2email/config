@@ -1,0 +1,90 @@
+[DEFAULT]
+from = bozo@dev.null.invalid
+force-from = False
+use-publisher-email = False
+friendly-name = True
+to = wking@tremily.us
+proxy = 
+feed-timeout = 60
+active = True
+date-header = False
+date-header-order = modified, issued, created, expired
+bonus-header = 
+trust-guid = True
+encodings = US-ASCII, UTF-8
+html-mail = False
+use-css = False
+css = h1 {
+	font: 18pt Georgia, "Times New Roman";
+	}
+	body {
+	font: 12pt Arial;
+	}
+	a:link {
+	font: 12pt Arial;
+	font-weight: bold;
+	color: #0000cc;
+	}
+	blockquote {
+	font-family: monospace;
+	}
+	.header {
+	background: #e0ecff;
+	border-bottom: solid 4px #c3d9ff;
+	padding: 5px;
+	margin-top: 0px;
+	color: red;
+	}
+	.header a {
+	font-size: 20px;
+	text-decoration: none;
+	}
+	.footer {
+	background: #c3d9ff;
+	border-top: solid 4px #c3d9ff;
+	padding: 5px;
+	margin-bottom: 0px;
+	}
+	border: solid 4px #c3d9ff;
+	}
+	margin-left: 5px;
+	margin-right: 5px;
+	}
+unicode-snob = False
+links-after-each-paragraph = False
+body-width = 0
+use-smtp = False
+smtp-server = smtp.yourisp.net:25
+smtp-auth = False
+smtp-username = username
+smtp-password = password
+smtp-ssl = False
+verbose = warning
+
+[feed.rss2email]
+url = http://www.allthingsrss.com/rss2email/feed/
+
+[feed.xkcd]
+url = http://xkcd.com/atom.xml
+
+[feed.xkcd-what-if]
+url = http://what-if.xkcd.com/feed.atom
+
+[feed.indexed]
+url = http://thisisindexed.com/feed/
+
+[feed.biophysical-journal]
+url = http://www.cell.com/rssFeed/biophysj/rss.NewIssueAndArticles.xml
+
+[feed.pnas]
+url = http://www.pnas.org/rss/current.xml
+
+[feed.nature-issue]
+url = http://feeds.nature.com/nature/rss/current
+
+[feed.nature-aop]
+url = http://feeds.nature.com/nature/rss/aop
+
+[feed.python-pep]
+url = http://hg.python.org/peps/atom-log
+
