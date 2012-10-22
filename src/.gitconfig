@@ -16,3 +16,7 @@
 	cccmd = /home/wking/bin/git-cc
 	aliasesfile = /home/wking/.mutt/aliases
 	aliasfiletype = mutt
+
+[diff "gpg"]
+	textconv = gpg -v
+	xfuncname = "^((pub|uid) .*)"
