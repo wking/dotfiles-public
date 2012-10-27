@@ -19,7 +19,7 @@ fi
 export HISTCONTROL=ignoreboth
 
 # check the window size after each command and, if necessary,
-# update the values of LINES and COLUMNS.
+# update the values of LINES and COLUMNS.  See bash(1).
 shopt -s checkwinsize
 
 for FILE in ~/.bashrc.d/*; do
