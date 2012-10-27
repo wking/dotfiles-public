@@ -1,0 +1,11 @@
+--- a/.emacs
++++ b/.emacs
+@@ -20,8 +20,6 @@
+ (load "wtk_no-vc.el")
+ (load "wtk_ansi-color.el")
+ 
+-(require 'cython-mode)
+-
+ ; Play GNU Go in an emacs buffer
+ ;(require 'gnugo)
+ 
