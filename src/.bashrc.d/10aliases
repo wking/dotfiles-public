@@ -28,7 +28,7 @@ alias findex='find . -perm -u+x ! -type d'
 alias git-blame-author='git blame sudoku.c | sed "s/^[^(]*//" | sed "s/ [0-9]\{4\}-[^)]*//" | less'
 alias sortdat='find . -printf "%TY-%Tm-%Td+%TH:%TM:%TS %h/%f\n" | sort -n'
 alias sortdirdat='find . -type d -printf "%TY-%Tm-%Td+%TH:%TM:%TS %h/%f\n" | sort -n'
-alias pythonhttp='python -m SimpleHTTPServer 8000'
+alias pythonhttp='python -m http.server 8000'
 alias scanletter='scanimage --quick-format Letter --format=tiff'
 
 # enable color support of ls and also add handy aliases
