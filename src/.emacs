@@ -14,6 +14,7 @@
 (load "wtk_utf-8.el")
 (load "wtk_layout.el")
 (load "wtk_linux.el")
+(load "wtk_notmuch.el")
 (load "wtk_aspell.el")
 (load "wtk_epa.el")
 (load "wtk_org.el")
