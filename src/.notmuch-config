@@ -1,0 +1,22 @@
+# .notmuch-config - Configuration file for the notmuch mail system
+#
+# For more information about notmuch, see http://notmuchmail.org
+
+[database]
+path=/home/wking/mail
+
+[user]
+name=W. Trevor King
+primary_email=wking@tremily.us
+other_email=wking@drexel.edu;tvrkng@gmail.com;
+
+[new]
+tags=unread;inbox;
+
+ignore=
+
+[maildir]
+synchronize_flags=true
+
+[search]
+exclude_tags=deleted;spam;
