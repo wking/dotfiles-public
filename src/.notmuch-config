@@ -11,7 +11,7 @@ primary_email=wking@tremily.us
 other_email=wking@drexel.edu;tvrkng@gmail.com;
 
 [new]
-tags=unread;inbox;
+tags=new
 
 ignore=
 

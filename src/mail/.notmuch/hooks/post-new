@@ -1,0 +1,31 @@
+#!/bin/sh
+
+# immediately archive all messages from "me"
+notmuch tag -new -- tag:new and \( from:wking@tremily.us or from:wking@drexel.edu or from tvrkng@gmail.com \)
+
+# tag all message from mailing lists
+notmuch tag +be -- tag:new and to:be-devel@bugseverywhere.org
+notmuch tag +bluetooth -- tag:new and to:linux-bluetooth@vger.kernel.org
+notmuch tag +catalyst -- tag:new and to:gentoo-catalyst@lists.gentoo.org
+notmuch tag +comedi -- tag:new and to:comedi_list@googlegroups.com
+notmuch tag +cython -- tag:new and \( to:cython-users@googlegroups.com or to:cython-devel@python.org \)
+notmuch tag +gentoo -- tag:new and to:gentoo-dev@lists.gentoo.org
+notmuch tag +gentoo-python -- tag:new and \( to:gentoo-python@lists.gentoo.org or to:python@gentoo.org \)
+notmuch tag +git -- tag:new and to:git@vger.kernel.org
+notmuch tag +github -- tag:new and from:support@github.com
+notmuch tag +libgit2 -- tag:new and to:libgit2@noreply.github.com
+notmuch tag +gitorious -- tag:new and to:gitorious@googlegroups.com
+notmuch tag +gnupg -- tag:new and to:gnupg-devel@gnupg.org
+notmuch tag +gramps -- tag:new and to:gramps-devel@lists.sourceforge.net
+notmuch tag +notmuch -- tag:new and to:notmuch@notmuchmail.org
+notmuch tag +roundup -- tag:new and \( to:roundup-devel@lists.sourceforge.net or to:roundup-users@lists.sourceforge.net \)
+
+# tag rss2email stuff, actually sorted by procmail based on headers
+# which aren't indexed by notmuch
+notmuch tag +journal -- tag:new and folder:journal
+
+# tag sysadmin stuff
+notmuch tag +admin -- tag:new and 'subject:report domain'
+
+# finally, retag all "new" messages "inbox" and "unread"
+notmuch tag +inbox +unread -new -- tag:new
