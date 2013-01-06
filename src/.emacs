@@ -14,7 +14,6 @@
 (load "wtk_utf-8.el")
 (load "wtk_layout.el")
 (load "wtk_linux.el")
-(load "wtk_notmuch.el")
 (load "wtk_aspell.el")
 (load "wtk_epa.el")
 (load "wtk_org.el")
@@ -22,6 +21,8 @@
 (load "wtk_ansi-color.el")
 
 (require 'cython-mode)
+
+(autoload 'notmuch "wtk_notmuch" "notmuch mail" t)
 
 ; Play GNU Go in an emacs buffer
 ;(require 'gnugo)
