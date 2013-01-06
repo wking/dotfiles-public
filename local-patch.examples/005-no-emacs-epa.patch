@@ -1,10 +1,10 @@
 --- a/.emacs
 +++ b/.emacs
 @@ -15,7 +15,6 @@
- (load "wtk_layout.el")
- (load "wtk_linux.el")
- (load "wtk_aspell.el")
--(load "wtk_epa.el")
- (load "wtk_org.el")
- (load "wtk_no-vc.el")
- (load "wtk_ansi-color.el")
+ (load "wtk_layout")
+ (load "wtk_linux")
+ (load "wtk_aspell")
+-(load "wtk_epa")
+ (load "wtk_org")
+ (load "wtk_no-vc")
+ (load "wtk_ansi-color")

@@ -1,8 +1,8 @@
 --- a/.emacs
 +++ b/.emacs
 @@ -20,8 +20,6 @@
- (load "wtk_no-vc.el")
- (load "wtk_ansi-color.el")
+ (load "wtk_no-vc")
+ (load "wtk_ansi-color")
  
 -(require 'cython-mode)
 -

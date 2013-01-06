@@ -9,5 +9,5 @@
 (add-to-list 'load-path "~/.emacs.d/site-lisp/")
 
 ; Load useful customizations
-(load "wtk_common.el")
-(load "wtk_centralized_backups.el")
+(load "wtk_common")
+(load "wtk_centralized_backups")

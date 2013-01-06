@@ -9,16 +9,16 @@
 (add-to-list 'load-path "~/.emacs.d/site-lisp/")
 
 ; Load useful customizations
-(load "wtk_common.el")
-(load "wtk_centralized_backups.el")
-(load "wtk_utf-8.el")
-(load "wtk_layout.el")
-(load "wtk_linux.el")
-(load "wtk_aspell.el")
-(load "wtk_epa.el")
-(load "wtk_org.el")
-(load "wtk_no-vc.el")
-(load "wtk_ansi-color.el")
+(load "wtk_common")
+(load "wtk_centralized_backups")
+(load "wtk_utf-8")
+(load "wtk_layout")
+(load "wtk_linux")
+(load "wtk_aspell")
+(load "wtk_epa")
+(load "wtk_org")
+(load "wtk_no-vc")
+(load "wtk_ansi-color")
 
 (require 'cython-mode)
 
@@ -27,5 +27,5 @@
 ; Play GNU Go in an emacs buffer
 ;(require 'gnugo)
 
-; Load querty.el, for switching keyboard mappings.
-;(load "querty.el")
+; Load querty, for switching keyboard mappings.
+;(load "querty")
