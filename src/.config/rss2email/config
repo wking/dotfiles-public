@@ -88,3 +88,11 @@ url = http://feeds.nature.com/nature/rss/aop
 [feed.python-pep]
 url = http://hg.python.org/peps/atom-log
 
+[feed.third-bit]
+url = http://third-bit.com/blog/feed
+
+[feed.third-bit-comments]
+url = http://third-bit.com/blog/comments/feed
+
+[feed.swc]
+url = http://software-carpentry.org/feed.xml
