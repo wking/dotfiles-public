@@ -17,8 +17,12 @@ notmuch tag +libgit2 -- tag:new and to:libgit2@noreply.github.com
 notmuch tag +gitorious -- tag:new and to:gitorious@googlegroups.com
 notmuch tag +gnupg -- tag:new and to:gnupg-devel@gnupg.org
 notmuch tag +gramps -- tag:new and to:gramps-devel@lists.sourceforge.net
+notmuch tag +hdf -- tag:new and to:hdf-forum@hdfgroup.org
+notmuch tag +hub -- tag:new and to:hub@noreply.github.com
+notmuch tag +kerberos -- tag:new and \( to:krbdev@mit.edu or to:kerberos@mit.edu \)
 notmuch tag +notmuch -- tag:new and to:notmuch@notmuchmail.org
 notmuch tag +roundup -- tag:new and \( to:roundup-devel@lists.sourceforge.net or to:roundup-users@lists.sourceforge.net \)
+notmuch tag +swc -- tag:new and \( to:lists.software-carpentry.org or to:boot-camps@noreply.github.com or to:website@noreply.github.com or to:assets@noreply.github.com or to:online-tutorials@noreply.github.com \)
 
 # tag rss2email stuff, actually sorted by procmail based on headers
 # which aren't indexed by notmuch
