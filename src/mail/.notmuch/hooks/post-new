@@ -21,6 +21,7 @@ notmuch tag +hdf -- tag:new and to:hdf-forum@hdfgroup.org
 notmuch tag +hub -- tag:new and to:hub@noreply.github.com
 notmuch tag +kerberos -- tag:new and \( to:krbdev@mit.edu or to:kerberos@mit.edu \)
 notmuch tag +notmuch -- tag:new and to:notmuch@notmuchmail.org
+notmuch tag +pelican -- tag:new and \( to:pelican@noreply.github.com or to:pelican-themes@noreply.github.com \)
 notmuch tag +roundup -- tag:new and \( to:roundup-devel@lists.sourceforge.net or to:roundup-users@lists.sourceforge.net \)
 notmuch tag +swc -- tag:new and \( to:lists.software-carpentry.org or to:boot-camps@noreply.github.com or to:website@noreply.github.com or to:assets@noreply.github.com or to:online-tutorials@noreply.github.com \)
 
