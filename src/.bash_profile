@@ -1,8 +1,16 @@
 # This file is sourced by bash for login shells.
 
-# set PATH so it includes user's private bin if it exists
-if [ -d ~/bin ]; then
-    PATH=~/bin:"${PATH}":/usr/sbin:/sbin
+# include system binaries
+PATH="${PATH}":/usr/sbin:/sbin
+
+# set PATH so it includes user's local bin if it exists
+if [ -d "${HOME}"/.local/bin ]; then
+    PATH="${HOME}"/.local/bin:"${PATH}"
+fi
+
+# set PATH so it includes user's personal bin if it exists
+if [ -d "${HOME}"/bin ]; then
+    PATH="${HOME}"/bin:"${PATH}"
 fi
 
 # The following line runs your .bashrc and is recommended by the bash
