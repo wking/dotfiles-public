@@ -33,5 +33,8 @@ notmuch tag +journal -- tag:new and folder:journal
 # tag sysadmin stuff
 notmuch tag +admin -- tag:new and 'subject:report domain'
 
+# remove new from things we don't want in the inbox
+notmuch tag +unread -new -- tag:new and \( tag:gramps or tag:notmuch or tag:simulavr \)
+
 # finally, retag all "new" messages "inbox" and "unread"
 notmuch tag +inbox +unread -new -- tag:new
