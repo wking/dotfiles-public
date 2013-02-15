@@ -17,6 +17,9 @@
 	aliasesfile = /home/wking/.mutt/aliases
 	aliasfiletype = mutt
 
+[color]
+	ui = auto
+
 [diff "gpg"]
 	textconv = gpg -v
 	xfuncname = "^((pub|uid) .*)"
