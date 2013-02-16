@@ -23,3 +23,6 @@
 [diff "gpg"]
 	textconv = gpg -v
 	xfuncname = "^((pub|uid) .*)"
+
+[alias]
+	glog = log --graph --oneline --decorate
