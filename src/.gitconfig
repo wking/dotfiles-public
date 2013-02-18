@@ -25,4 +25,4 @@
 	xfuncname = "^((pub|uid) .*)"
 
 [alias]
-	glog = log --graph --oneline --decorate
+	glog = log --graph --topo-order --oneline --decorate
