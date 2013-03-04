@@ -1,15 +1,11 @@
 # turn off terminal beep in X
-if [ $TERM == "xterm" ] && [ -n "$DISPLAY" ]; then
-	XSET=$(which xset 2> /dev/null)
-	if [ -n "${XSET}" ]; then
+if [ -n "$DISPLAY" ] && [ "$TERM" == "xterm" ]; then
+	if [ -x "$(command -v xset)" ]; then
 		xset b off
 	fi;
-	unset XSET
 fi
 
 # turn of terminal beeps in the console, unless connecting via SSH
-if [ -z "$SSH_CLIENT" ]; then
-	if [ ! -z "$TERM" ]; then
-		setterm -blength 0
-	fi
+if [ -n "$TERM" ] && [ -z "$SSH_CLIENT" ]; then
+	setterm -blength 0
 fi
