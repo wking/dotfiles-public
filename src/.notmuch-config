@@ -15,8 +15,8 @@ tags=new
 
 ignore=
 
-[maildir]
-synchronize_flags=true
+#[maildir]
+#synchronize_flags=true
 
 [search]
 exclude_tags=deleted;spam;
