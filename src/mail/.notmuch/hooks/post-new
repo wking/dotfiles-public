@@ -8,30 +8,47 @@ notmuch tag +be -- tag:new and to:be-devel@bugseverywhere.org
 notmuch tag +bluetooth -- tag:new and to:linux-bluetooth@vger.kernel.org
 notmuch tag +catalyst -- tag:new and to:gentoo-catalyst@lists.gentoo.org
 notmuch tag +comedi -- tag:new and to:comedi_list@googlegroups.com
+notmuch tag +copyleft -- tag:new and to:copyleft-next@lists.fedorahosted.org
 notmuch tag +cython -- tag:new and \( to:cython-users@googlegroups.com or to:cython-devel@python.org \)
-notmuch tag +gentoo -- tag:new and \( to:gentoo-dev@lists.gentoo.org or to: gentoo-alt@lists.gentoo.org \)
+notmuch tag +gentoo -- tag:new and \( to:gentoo-dev@lists.gentoo.org or to:gentoo-dev@gentoo.org or to:gentoo-alt@lists.gentoo.org or from:bugzilla-daemon@gentoo.org \)
+notmuch tag +gentoo-prefix -- tag:new and to:gentoo-alt@lists.gentoo.org
 notmuch tag +gentoo-python -- tag:new and \( to:gentoo-python@lists.gentoo.org or to:python@gentoo.org \)
-notmuch tag +git -- tag:new and to:git@vger.kernel.org
+notmuch tag +git -- tag:new and \( to:git@vger.kernel.org or to:progit@noreply.github.com \)
 notmuch tag +github -- tag:new and from:support@github.com
-notmuch tag +libgit2 -- tag:new and to:libgit2@noreply.github.com
+notmuch tag +libgit2 -- tag:new and \( to:libgit2@noreply.github.com or to:pygit2@noreply.github.com \)
 notmuch tag +gitorious -- tag:new and to:gitorious@googlegroups.com
-notmuch tag +gnupg -- tag:new and to:gnupg-devel@gnupg.org
+notmuch tag +gnupg -- tag:new and \( to:gnupg-devel@gnupg.org or to:gnupg-announce@gnupg.org \)
 notmuch tag +gramps -- tag:new and to:gramps-devel@lists.sourceforge.net
 notmuch tag +hdf -- tag:new and to:hdf-forum@hdfgroup.org
+notmuch tag +html2text -- tag:new and to:html2text@noreply.github.com
 notmuch tag +hub -- tag:new and to:hub@noreply.github.com
-notmuch tag +kerberos -- tag:new and \( to:krbdev@mit.edu or to:kerberos@mit.edu \)
+notmuch tag +ipython -- tag:new and \( to:ipython-dev@scipy.org or to:ipython-user@scipy.org or to:ipython@noreply.github.com or to:ipythonblocks@noreply.github.com \)
+notmuch tag +jinja -- tag:new and \( to:jinja2@noreply.github.com or subject:jinja \)
+notmuch tag +kerberos -- tag:new and \( to:krbdev@mit.edu or to:kerberos@mit.edu or to:kerberos-announce@mit.edu \)
+notmuch tag +kmod -- tag:new and to:python-kmod@noreply.github.com
+notmuch tag +mlmmj -- tag:new and to:mlmmj@mlmmj.org
+notmuch tag +monkeysphere -- tag:new and to:monkeysphere@lists.riseup.net
 notmuch tag +notmuch -- tag:new and to:notmuch@notmuchmail.org
 notmuch tag +pelican -- tag:new and \( to:pelican@noreply.github.com or to:pelican-themes@noreply.github.com \)
+notmuch tag +python -- tag:new and \( to:python-list@python.org or to:python-announce@python.org or from:report@bugs.python.org \)
 notmuch tag +roundup -- tag:new and \( to:roundup-devel@lists.sourceforge.net or to:roundup-users@lists.sourceforge.net \)
-notmuch tag +simulavr -- tag:new and \( to:simulavr-devel@nongnu.org \)
-notmuch tag +swc -- tag:new and \( to:lists.software-carpentry.org or to:boot-camps@noreply.github.com or to:website@noreply.github.com or to:assets@noreply.github.com or to:online-tutorials@noreply.github.com \)
+notmuch tag +rss2email -- tag:new and \( to:rss2email@tremily.us or to:rss2email@noreply.github.com \)
+notmuch tag +simavr -- tag:new and simavr@googlegroups.com
+notmuch tag +simulavr -- tag:new and \( to:simulavr-devel@nongnu.org or to:simulavr-devel@mail.freesoftware.fsf.org \)
+notmuch tag +swc -- tag:new and \( to:lists.software-carpentry.org or to:boot-camps@noreply.github.com or to:website@noreply.github.com or to:assets@noreply.github.com or to:ipythonblocks@noreply.github.com or to:notebooks@noreply.github.com or to:online-tutorials@noreply.github.com \)
+notmuch tag +towtruck -- tag:new and to:towtruck@noreply.github.com
+notmuch tag +venv -- tag:new and to:python-virtualenv@googlegroups.com
+notmuch tag +wireless +linux -- tag:new and \( to:linux-wireless or to:b43-dev@lists.infradead.org \)
 
 # tag rss2email stuff, actually sorted by procmail based on headers
 # which aren't indexed by notmuch
 notmuch tag +journal -- tag:new and folder:journal
 
 # tag sysadmin stuff
-notmuch tag +admin -- tag:new and 'subject:report domain'
+notmuch tag +admin -- tag:new and \( 'subject:report domain' or 'subject:DMARC.*report' \)
+
+# tag issues from bugtrackers
+notmuch tag +issue -- tag:new and \( from:bugzilla-daemon@gentoo.org or from:report@bugs.python.org \)
 
 # remove new from things we don't want in the inbox
 notmuch tag +unread -new -- tag:new and \( tag:gramps or tag:notmuch or tag:simulavr \)
