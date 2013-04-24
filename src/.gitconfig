@@ -25,4 +25,5 @@
 	xfuncname = "^((pub|uid) .*)"
 
 [alias]
+	authors = shortlog -se
 	glog = log --graph --topo-order --oneline --decorate
