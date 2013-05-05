@@ -33,7 +33,7 @@ unset x
 # personalize Perl path
 #export PERL5LIB="${HOME}/lib/perl5/vendor_perl/5.12.2"
 
-# personalize Java path (found by tracing from `which javac`)
+# personalize Java path (found by tracing from `command -v javac`)
 #export JAVA_HOME=/usr/lib/jvm/java-6-openjdk/
 
 # personalize ruby and rubygems paths

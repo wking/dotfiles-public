@@ -21,7 +21,7 @@ fi
 
 # print my calendar if I've configured it
 # http://bsdcalendar.sourceforge.net/  (Gentoo: app-misc/calendar)
-CALENDAR=$(which calendar 2> /dev/null)
+CALENDAR=$(command -v calendar)
 if [ -n "${CALENDAR}" ] && [ -f ~/.calendar/calendar ]; then
     calendar
 fi

@@ -1,6 +1,6 @@
 # Run the dotfiles.sh script if it exists
 
-DS="$(which dotfiles.sh)"
+DS="$(command -v dotfiles.sh)"
 if [ -n "${DS}" ] && [ -f "${DS}" ] && [ -x "${DS}" ]; then
 	"${DS}" --dotfiles-dir ~/src/dotfiles update
 fi

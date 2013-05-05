@@ -2,7 +2,7 @@
 #
 # .xinitrc, a startup file for X
 
-if [ -n $(which conky) ]; then
+if [ -n $(command -v conky) ]; then
     conky &
 fi
 
@@ -15,7 +15,7 @@ if [ -e /usr/bin/asus_acpid ]; then
 fi
 
 # Set up keybindings
-if [ -n $(which xmodmap) ]; then
+if [ -n $(command -v xmodmap) ]; then
 	xmodmap ~/.Xmodmap
 fi
 
