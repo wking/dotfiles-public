@@ -27,3 +27,4 @@
 [alias]
 	authors = shortlog -se
 	glog = log --graph --topo-order --oneline --decorate
+	dlog = log --graph --date-order --oneline --decorate
