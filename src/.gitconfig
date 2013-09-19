@@ -24,6 +24,9 @@
 	textconv = gpg -v
 	xfuncname = "^((pub|uid) .*)"
 
+[rerere]
+	enabled = true
+
 [alias]
 	authors = shortlog -se
 	glog = log --graph --topo-order --oneline --decorate
