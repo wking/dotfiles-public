@@ -13,7 +13,7 @@
 
 [sendemail]
 	from = W. Trevor King <wking@tremily.us>
-	cccmd = /home/wking/bin/git-cc
+	cccmd = git-contacts
 	aliasesfile = /home/wking/.mutt/aliases
 	aliasfiletype = mutt
 
