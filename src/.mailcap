@@ -2,7 +2,7 @@ image/*;	pqiv %s; test=test -n "$DISPLAY"
 image/*;	fbi -a %s; test=test "$TERM" == "linux"; needsterminal
 audio/*;	mplayer %s;
 video/*;	mplayer %s; test=test -n "$DISPLAY"
-text/html;	/usr/bin/firefox %s; test=test -n "$DISPLAY"; description=HTML Text; nametemplate %s.html
+text/html;	/usr/bin/firefox %s; test=test -n "$DISPLAY"; description=HTML Text; nametemplate=%s.html
 text/html;	w3m -T text/html %s
 #text/html;	w3m -T text/html %s; description=HTML Text; nametemplate %s.html
 #application/pdf; /usr/bin/xpdf %s; test=test -n "$DISPLAY"; description=Portable Document Format; nametemplate=%s.pdf
