@@ -1,6 +1,7 @@
--1 "cache-file.sh -l saves"
--2 "cache-file.sh trash"
--3 "cache-file.sh -r"
--4 "cache-file.sh good"
--5 "cache-file.sh empty"
--6 "cache-file.sh crud"
+[options]
+command-1 = cache-file.sh -l saves
+command-2 = cache-file.sh trash
+command-3 = cache-file.sh -r
+command-4 = cache-file.sh good
+command-5 = cache-file.sh empty
+command-6 = cache-file.sh crud
