@@ -3,6 +3,13 @@
 # include system binaries
 PATH="${PATH}":/usr/sbin:/sbin
 
+# set PATH so it includes ruby gems, if they exist
+for GEM_BIN in ~/.gem/ruby/*/bin; do
+	if [ -d "${GEM_BIN}" ]; then
+		PATH="${GEM_BIN}":"${PATH}"
+	fi
+done
+
 # set PATH so it includes user's local bin if it exists
 if [ -d "${HOME}"/.local/bin ]; then
 	PATH="${HOME}"/.local/bin:"${PATH}"
