@@ -1,6 +1,7 @@
 #!/bin/sh
 
 # tag all message from mailing lists
+notmuch tag +aubio -- tag:new and to:aubio-user@aubio.org
 notmuch tag +be -- tag:new and to:be-devel@bugseverywhere.org
 notmuch tag +bluetooth -- tag:new and to:linux-bluetooth@vger.kernel.org
 notmuch tag +catalyst -- tag:new and to:gentoo-catalyst@lists.gentoo.org
