@@ -1,8 +1,5 @@
 #!/bin/sh
 
-# immediately archive all messages from "me"
-notmuch tag -new -- tag:new and \( from:wking@tremily.us or from:wking@drexel.edu or from tvrkng@gmail.com \)
-
 # tag all message from mailing lists
 notmuch tag +be -- tag:new and to:be-devel@bugseverywhere.org
 notmuch tag +bluetooth -- tag:new and to:linux-bluetooth@vger.kernel.org
@@ -50,6 +47,9 @@ notmuch tag +admin -- tag:new and \( 'subject:report domain' or 'subject:DMARC.*
 
 # tag issues from bugtrackers
 notmuch tag +issue -- tag:new and \( from:bugzilla-daemon@gentoo.org or from:report@bugs.python.org \)
+
+# archive all messages from "me"
+notmuch tag -new -- tag:new and \( from:wking@tremily.us or from:wking@drexel.edu or from:tvrkng@gmail.com \)
 
 # remove new from things we don't want in the inbox
 notmuch tag +unread -new -- tag:new and \( tag:gramps or tag:notmuch or tag:simulavr \)
