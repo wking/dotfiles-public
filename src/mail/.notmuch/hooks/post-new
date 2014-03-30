@@ -14,6 +14,7 @@ notmuch tag +gentoo-prefix -- tag:new and to:gentoo-alt@lists.gentoo.org
 notmuch tag +gentoo-python -- tag:new and \( to:gentoo-python@lists.gentoo.org or to:python@gentoo.org \)
 notmuch tag +git -- tag:new and \( to:git@vger.kernel.org or to:progit@noreply.github.com \)
 notmuch tag +github -- tag:new and from:support@github.com
+notmuch tag +gunicorn -- tag:new and to:gunicorn@noreply.github.com
 notmuch tag +libgit2 -- tag:new and \( to:libgit2@noreply.github.com or to:pygit2@noreply.github.com \)
 notmuch tag +gitorious -- tag:new and to:gitorious@googlegroups.com
 notmuch tag +gnupg -- tag:new and \( to:gnupg-devel@gnupg.org or to:gnupg-announce@gnupg.org \)
