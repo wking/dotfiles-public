@@ -38,6 +38,7 @@ notmuch tag +pycuda -- tag:new and to:pycuda@noreply.github.com
 notmuch tag +python -- tag:new and \( to:python-list@python.org or to:python-announce@python.org or from:report@bugs.python.org \)
 notmuch tag +roundup -- tag:new and \( to:roundup-devel@lists.sourceforge.net or to:roundup-users@lists.sourceforge.net \)
 notmuch tag +rss2email -- tag:new and \( to:rss2email@tremily.us or to:rss2email@noreply.github.com \)
+notmuch tag +siunitx -- tag:new and to:siunitx@noreply.github.com
 notmuch tag +simavr -- tag:new and simavr@googlegroups.com
 notmuch tag +simulavr -- tag:new and \( to:simulavr-devel@nongnu.org or to:simulavr-devel@mail.freesoftware.fsf.org \)
 notmuch tag +swc -- tag:new and \( to:lists.software-carpentry.org or to:boot-camps@noreply.github.com or to:website@noreply.github.com or to:assets@noreply.github.com or to:ipythonblocks@noreply.github.com or to:notebooks@noreply.github.com or to:online-tutorials@noreply.github.com \)
