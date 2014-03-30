@@ -12,3 +12,6 @@
 
 ; Make scripts executable on Save (saves having to do the chmod every time)
 (add-hook 'after-save-hook 'executable-make-buffer-file-executable-if-script-p)
+
+; Disable the bell (\a, ^G) completely
+(setq ring-bell-function 'ignore)
