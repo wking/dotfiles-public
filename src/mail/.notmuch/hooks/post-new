@@ -23,6 +23,7 @@ notmuch tag +gramps -- tag:new and to:gramps-devel@lists.sourceforge.net
 notmuch tag +hdf -- tag:new and to:hdf-forum@hdfgroup.org
 notmuch tag +html2text -- tag:new and to:html2text@noreply.github.com
 notmuch tag +hub -- tag:new and to:hub@noreply.github.com
+notmuch tag +hubot -- tag:new and to:hubot-scripts@noreply.github.com
 notmuch tag +ipython -- tag:new and \( to:ipython-dev@scipy.org or to:ipython-dev@scipy.net or to:ipython-user@scipy.org or to:ipython-user@scipy.net or to:ipython@noreply.github.com or to:ipythonblocks@noreply.github.com \)
 notmuch tag +jinja -- tag:new and \( to:jinja2@noreply.github.com or subject:jinja \)
 notmuch tag +kerberos -- tag:new and \( to:krbdev@mit.edu or to:kerberos@mit.edu or to:kerberos-announce@mit.edu \)
