@@ -19,6 +19,7 @@ notmuch tag +gunicorn -- tag:new and to:gunicorn@noreply.github.com
 notmuch tag +libgit2 -- tag:new and \( to:libgit2@noreply.github.com or to:pygit2@noreply.github.com \)
 notmuch tag +gitorious -- tag:new and to:gitorious@googlegroups.com
 notmuch tag +gnupg -- tag:new and \( to:gnupg-devel@gnupg.org or to:gnupg-announce@gnupg.org \)
+notmuch tag +gnuplot -- tag:new and to:gnuplot-beta@lists.sourceforge.net
 notmuch tag +gramps -- tag:new and to:gramps-devel@lists.sourceforge.net
 notmuch tag +hdf -- tag:new and to:hdf-forum@hdfgroup.org
 notmuch tag +html2text -- tag:new and to:html2text@noreply.github.com
