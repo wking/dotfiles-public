@@ -33,6 +33,7 @@ notmuch tag +mdp -- tag:new and \( mdp-toolkit@noreply.github.com or to:mdp-tool
 notmuch tag +notmuch -- tag:new and to:notmuch@notmuchmail.org
 notmuch tag +pelican -- tag:new and \( to:pelican@noreply.github.com or to:pelican-themes@noreply.github.com \)
 notmuch tag +portage -- tag:new and \( to:gentoo-portage-dev@lists.gentoo.org \)
+notmuch tag +pycrypto -- tag:new and to:pycrypto@noreply.github.com
 notmuch tag +pycuda -- tag:new and to:pycuda@noreply.github.com
 notmuch tag +python -- tag:new and \( to:python-list@python.org or to:python-announce@python.org or from:report@bugs.python.org \)
 notmuch tag +roundup -- tag:new and \( to:roundup-devel@lists.sourceforge.net or to:roundup-users@lists.sourceforge.net \)
