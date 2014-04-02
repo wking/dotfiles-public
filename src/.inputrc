@@ -1,0 +1,4 @@
+# Configure the Readline library
+
+# set bell (\a) style (audible, visible, none)
+set bell-style none
