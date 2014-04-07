@@ -47,7 +47,7 @@ notmuch tag +rss2email -- tag:new and \( to:rss2email@tremily.us or to:rss2email
 notmuch tag +siunitx -- tag:new and to:siunitx@noreply.github.com
 notmuch tag +simavr -- tag:new and simavr@googlegroups.com
 notmuch tag +simulavr -- tag:new and \( to:simulavr-devel@nongnu.org or to:simulavr-devel@mail.freesoftware.fsf.org \)
-notmuch tag +swc -- tag:new and \( to:lists.software-carpentry.org or to:boot-camps@noreply.github.com or to:website@noreply.github.com or to:assets@noreply.github.com or to:ipythonblocks@noreply.github.com or to:notebooks@noreply.github.com or to:online-tutorials@noreply.github.com \)
+notmuch tag +swc -- tag:new and \( to:lists.software-carpentry.org or to:boot-camps@noreply.github.com or to:bc@noreply.github.com or to:website@noreply.github.com or to:site@noreply.github.com or to:assets@noreply.github.com or to:ipythonblocks@noreply.github.com or to:notebooks@noreply.github.com or to:online-tutorials@noreply.github.com \)
 notmuch tag +tldp -- tag:new and to:discuss@en.tldp.org
 notmuch tag +towtruck -- tag:new and to:towtruck@noreply.github.com
 notmuch tag +venv -- tag:new and to:python-virtualenv@googlegroups.com
