@@ -39,6 +39,7 @@ notmuch tag +monkeysphere -- tag:new and to:monkeysphere@lists.riseup.net
 notmuch tag +mdp -- tag:new and \( mdp-toolkit@noreply.github.com or to:mdp-toolkit-users@lists.sourceforge.net \)
 notmuch tag +notmuch -- tag:new and to:notmuch@notmuchmail.org
 notmuch tag +pelican -- tag:new and \( to:pelican@noreply.github.com or to:pelican-themes@noreply.github.com \)
+notmuch tag +persona -- tag:new and to:persona@noreply.github.com
 notmuch tag +portage -- tag:new and \( to:gentoo-portage-dev@lists.gentoo.org \)
 notmuch tag +pycrypto -- tag:new and to:pycrypto@noreply.github.com
 notmuch tag +pycuda -- tag:new and to:pycuda@noreply.github.com
