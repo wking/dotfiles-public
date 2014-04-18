@@ -16,7 +16,7 @@ notmuch tag +fontconfig -- tag:new and to:fontconfig@lists.freedesktop.org
 notmuch tag +gentoo -- tag:new and \( to:gentoo-dev@lists.gentoo.org or to:gentoo-dev@gentoo.org or to:gentoo-alt@lists.gentoo.org or from:bugzilla-daemon@gentoo.org or from:planet@gentoo.org or from:planet-gentoo@rss2email.invalid or from:gentoo-universe@rss2email.invalid \)
 notmuch tag +gentoo-prefix -- tag:new and to:gentoo-alt@lists.gentoo.org
 notmuch tag +gentoo-python -- tag:new and \( to:gentoo-python@lists.gentoo.org or to:python@gentoo.org \)
-notmuch tag +git -- tag:new and \( to:git@vger.kernel.org or to:progit@noreply.github.com \)
+notmuch tag +git -- tag:new and \( to:git@vger.kernel.org or to:progit@noreply.github.com or to:git-scm.com@noreply.github.com \)
 notmuch tag +github -- tag:new and from:support@github.com
 notmuch tag +gunicorn -- tag:new and to:gunicorn@noreply.github.com
 notmuch tag +libgit2 -- tag:new and \( to:libgit2@noreply.github.com or to:pygit2@noreply.github.com \)
