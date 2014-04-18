@@ -13,6 +13,7 @@ notmuch tag +docker -- tag:new and \( to:docker@noreply.github.com or to:docker-
 notmuch tag +docker-registry -- tag:new and to:docker-registry@noreply.github.com
 notmuch tag +dj-static -- tag:new and to:dj-static@noreply.github.com
 notmuch tag +fontconfig -- tag:new and to:fontconfig@lists.freedesktop.org
+notmuch tag +fun -- tag:new and \( whatif@xkcd.com or from:service@dilbert.com \)
 notmuch tag +gentoo -- tag:new and \( to:gentoo-dev@lists.gentoo.org or to:gentoo-dev@gentoo.org or to:gentoo-alt@lists.gentoo.org or from:bugzilla-daemon@gentoo.org or from:planet@gentoo.org or from:planet-gentoo@rss2email.invalid or from:gentoo-universe@rss2email.invalid \)
 notmuch tag +gentoo-prefix -- tag:new and to:gentoo-alt@lists.gentoo.org
 notmuch tag +gentoo-python -- tag:new and \( to:gentoo-python@lists.gentoo.org or to:python@gentoo.org \)
