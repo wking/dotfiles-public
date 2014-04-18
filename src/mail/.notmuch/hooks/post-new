@@ -4,7 +4,7 @@
 notmuch tag +aubio -- tag:new and to:aubio-user@aubio.org
 notmuch tag +be -- tag:new and to:be-devel@bugseverywhere.org
 notmuch tag +bluetooth -- tag:new and to:linux-bluetooth@vger.kernel.org
-notmuch tag +catalyst -- tag:new and to:gentoo-catalyst@lists.gentoo.org
+notmuch tag +catalyst -- tag:new and \( to:gentoo-catalyst@lists.gentoo.org or subject:gentoo-releng-autobuilds \)
 notmuch tag +celery -- tag:new and to:celery@noreply.github.com
 notmuch tag +comedi -- tag:new and to:comedi_list@googlegroups.com
 notmuch tag +copyleft -- tag:new and to:copyleft-next@lists.fedorahosted.org
@@ -61,6 +61,7 @@ notmuch tag +wireless +linux -- tag:new and \( to:linux-wireless or to:b43-dev@l
 notmuch tag +journal -- tag:new and folder:journal
 
 # tag sysadmin stuff
+notmuch tag +admin -- tag:new and subject:gentoo-releng-autobuilds
 notmuch tag +admin -- tag:new and \( 'subject:report domain' or 'subject:DMARC.*report' \)
 
 # tag issues from bugtrackers
