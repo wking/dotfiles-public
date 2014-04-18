@@ -11,6 +11,7 @@ notmuch tag +copyleft -- tag:new and to:copyleft-next@lists.fedorahosted.org
 notmuch tag +cython -- tag:new and \( to:cython-users@googlegroups.com or to:cython-devel@python.org \)
 notmuch tag +docker -- tag:new and \( to:docker@noreply.github.com or to:docker-user@googlegroups.com \)
 notmuch tag +docker-registry -- tag:new and to:docker-registry@noreply.github.com
+notmuch tag +dj-static -- tag:new and to:dj-static@noreply.github.com
 notmuch tag +fontconfig -- tag:new and to:fontconfig@lists.freedesktop.org
 notmuch tag +gentoo -- tag:new and \( to:gentoo-dev@lists.gentoo.org or to:gentoo-dev@gentoo.org or to:gentoo-alt@lists.gentoo.org or from:bugzilla-daemon@gentoo.org or from:planet-gentoo@rss2email.invalid or from:gentoo-universe@rss2email.invalid \)
 notmuch tag +gentoo-prefix -- tag:new and to:gentoo-alt@lists.gentoo.org
