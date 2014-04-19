@@ -36,6 +36,7 @@ notmuch tag +kerberos -- tag:new and \( to:krbdev@mit.edu or to:kerberos@mit.edu
 notmuch tag +kibana -- tag:new and to:kibana@noreply.github.com
 notmuch tag +kmod -- tag:new and to:python-kmod@noreply.github.com
 notmuch tag +man -- tag:new and to:linux-man@vger.kernel.org
+notmuch tag +mentor -- tag:new and to:RMG-Py@noreply.github.com
 notmuch tag +mlmmj -- tag:new and to:mlmmj@mlmmj.org
 notmuch tag +monkeysphere -- tag:new and to:monkeysphere@lists.riseup.net
 notmuch tag +mdp -- tag:new and \( mdp-toolkit@noreply.github.com or to:mdp-toolkit-users@lists.sourceforge.net \)
@@ -51,7 +52,7 @@ notmuch tag +rss2email -- tag:new and \( to:rss2email@tremily.us or to:rss2email
 notmuch tag +siunitx -- tag:new and to:siunitx@noreply.github.com
 notmuch tag +simavr -- tag:new and simavr@googlegroups.com
 notmuch tag +simulavr -- tag:new and \( to:simulavr-devel@nongnu.org or to:simulavr-devel@mail.freesoftware.fsf.org \)
-notmuch tag +swc -- tag:new and \( to:lists.software-carpentry.org or to:boot-camps@noreply.github.com or to:bc@noreply.github.com or to:website@noreply.github.com or to:site@noreply.github.com or to:assets@noreply.github.com or to:ipythonblocks@noreply.github.com or to:notebooks@noreply.github.com or to:online-tutorials@noreply.github.com \)
+notmuch tag +swc -- tag:new and \( to:lists.software-carpentry.org or to:boot-camps@noreply.github.com or to:bc@noreply.github.com or to:website@noreply.github.com or to:site@noreply.github.com or to:assets@noreply.github.com or to:ipythonblocks@noreply.github.com or to:notebooks@noreply.github.com or to:online-tutorials@noreply.github.com or to:code-research-object@noreply.github.com or from:swc@rss2email.invalid or from:gvwilson@third-bit.com or from:ctb@rss2email.invalid or from:ctb-comments@rss2email.invalid or from:computinged@rss2email.invalid or from:computinged-comments@rss2email.invalid or to:RMG-Py@noreply.github.com \)
 notmuch tag +tldp -- tag:new and to:discuss@en.tldp.org
 notmuch tag +towtruck -- tag:new and to:towtruck@noreply.github.com
 notmuch tag +venv -- tag:new and to:python-virtualenv@googlegroups.com
