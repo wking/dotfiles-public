@@ -60,6 +60,7 @@ notmuch tag +wireless +linux -- tag:new and \( to:linux-wireless or to:b43-dev@l
 
 # tag rss2email stuff, actually sorted by procmail based on headers
 # which aren't indexed by notmuch
+notmuch tag +job -- tag:new and \( from:careers.stackoverflow@rss2email.invalid \)
 notmuch tag +journal -- tag:new and folder:journal
 
 # tag sysadmin stuff
