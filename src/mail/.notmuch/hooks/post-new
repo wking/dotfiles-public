@@ -75,7 +75,7 @@ notmuch tag +issue -- tag:new and \( from:bugzilla-daemon@gentoo.org or from:rep
 notmuch tag -new -- tag:new and \( from:wking@tremily.us or from:wking@drexel.edu or from:tvrkng@gmail.com \)
 
 # remove new from things we don't want in the inbox
-notmuch tag +unread -new -- tag:new and \( tag:gramps or tag:notmuch or tag:simulavr \)
+notmuch tag +unread -new -- tag:new and not to:wking@tremily.us and \( tag:dj-static or tag:gunicorn or tag:hub or tag:icalendar or tag:gramps or tag:job or tag:journal or tag:pelican or tag:persona or tag:notmuch or tag:roundup or tag:simulavr or tag:venv or tag:wireless \)
 
 # finally, retag all "new" messages "inbox" and "unread"
 notmuch tag +inbox +unread -new -- tag:new
