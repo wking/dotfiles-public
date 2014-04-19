@@ -62,6 +62,7 @@ notmuch tag +wireless +linux -- tag:new and \( to:linux-wireless or to:b43-dev@l
 # which aren't indexed by notmuch
 notmuch tag +job -- tag:new and \( from:careers.stackoverflow@rss2email.invalid \)
 notmuch tag +journal -- tag:new and \( folder:journal or from:nature-aop@rss2email.invalid or from:nature-issue@rss2email.invalid or from:pnas@rss2email.invalid or from:rss@aps.org \)
+notmuch tag +news -- tag:new and \( from:"The Olympian" or from:"The News Tribune" \)
 
 # tag sysadmin stuff
 notmuch tag +admin -- tag:new and subject:gentoo-releng-autobuilds
