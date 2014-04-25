@@ -25,7 +25,6 @@ include "%L"
 <Multi_key> <A> <A> : "∀" U2200 # FOR ALL
 <Multi_key> <d> <d> : "∂" U2202 # PARTIAL DIFFERENTIAL
 <Multi_key> <E> <E> : "∃" U2202 # THERE EXISTS
-<Multi_key> <0> <0> : "∅" U2205 # EMPTY SET
 <Multi_key> <D> <D> : "∆" U2206 # INCREMENT (Laplace operator)
 <Multi_key> <N> <N> : "∇" U2207 # NABLA (gradient)
 
