@@ -54,7 +54,7 @@ notmuch tag +simavr -- tag:new and simavr@googlegroups.com
 notmuch tag +simulavr -- tag:new and \( to:simulavr-devel@nongnu.org or to:simulavr-devel@mail.freesoftware.fsf.org \)
 notmuch tag +swc -- tag:new and \( to:lists.software-carpentry.org or to:boot-camps@noreply.github.com or to:bc@noreply.github.com or to:website@noreply.github.com or to:site@noreply.github.com or to:assets@noreply.github.com or to:ipythonblocks@noreply.github.com or to:notebooks@noreply.github.com or to:online-tutorials@noreply.github.com or to:code-research-object@noreply.github.com or from:swc@rss2email.invalid or from:gvwilson@third-bit.com or from:ctb@rss2email.invalid or from:ctb-comments@rss2email.invalid or from:computinged@rss2email.invalid or from:computinged-comments@rss2email.invalid or to:RMG-Py@noreply.github.com \)
 notmuch tag +tldp -- tag:new and to:discuss@en.tldp.org
-notmuch tag +towtruck -- tag:new and to:towtruck@noreply.github.com
+notmuch tag +towtruck -- tag:new and \( to:towtruck@noreply.github.com or to:togetherjs@noreply.github.com \)
 notmuch tag +venv -- tag:new and to:python-virtualenv@googlegroups.com
 notmuch tag +wireless +linux -- tag:new and \( to:linux-wireless or to:b43-dev@lists.infradead.org \)
 
