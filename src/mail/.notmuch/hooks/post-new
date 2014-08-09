@@ -46,7 +46,7 @@ notmuch tag +persona -- tag:new and to:persona@noreply.github.com
 notmuch tag +portage -- tag:new and \( to:gentoo-portage-dev@lists.gentoo.org \)
 notmuch tag +pycrypto -- tag:new and to:pycrypto@noreply.github.com
 notmuch tag +pycuda -- tag:new and to:pycuda@noreply.github.com
-notmuch tag +python -- tag:new and \( to:python-list@python.org or to:python-announce@python.org or from:report@bugs.python.org \)
+notmuch tag +python -- tag:new and \( to:python-list@python.org or to:python-announce@python.org or from:report@bugs.python.org or from:python-checkins@rss2email.invalid \)
 notmuch tag +roundup -- tag:new and \( to:roundup-devel@lists.sourceforge.net or to:roundup-users@lists.sourceforge.net \)
 notmuch tag +rss2email -- tag:new and \( to:rss2email@tremily.us or to:rss2email@noreply.github.com \)
 notmuch tag +siunitx -- tag:new and to:siunitx@noreply.github.com
