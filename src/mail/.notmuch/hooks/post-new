@@ -26,6 +26,7 @@ notmuch tag +gitorious -- tag:new and to:gitorious@googlegroups.com
 notmuch tag +gnupg -- tag:new and \( to:gnupg-devel@gnupg.org or to:gnupg-announce@gnupg.org \)
 notmuch tag +gnuplot -- tag:new and to:gnuplot-beta@lists.sourceforge.net
 notmuch tag +gramps -- tag:new and to:gramps-devel@lists.sourceforge.net
+notmuch tag +hashdist -- tag:new and \( to:hashdist@googlegroups.com or hashdist@noreply.github.com \)
 notmuch tag +hdf -- tag:new and to:hdf-forum@hdfgroup.org
 notmuch tag +html2text -- tag:new and to:html2text@noreply.github.com
 notmuch tag +hub -- tag:new and to:hub@noreply.github.com
