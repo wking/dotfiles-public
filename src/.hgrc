@@ -9,6 +9,7 @@ cacerts = /etc/ssl/certs/ca-certificates.crt
 hgext.churn =
 hgext.convert =
 hgext.graphlog =
+hgext.patchbomb =
 hgext.purge =
 mq =
 rebase =
