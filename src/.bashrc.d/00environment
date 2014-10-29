@@ -11,3 +11,4 @@ export LESS="-R -M -Q --shift 5"
 export MONKEYSPHERE_CHECK_KEYSERVER=false
 
 export SANE_DEFAULT_DEVICE='epkowa:interpreter:001:003'
+export NO_UPDATE_NOTIFIER=1
