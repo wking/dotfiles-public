@@ -15,3 +15,6 @@
 
 ; Disable the bell (\a, ^G) completely
 (setq ring-bell-function 'ignore)
+
+; Disable electric indent mode
+(electric-indent-mode 0)
