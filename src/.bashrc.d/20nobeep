@@ -9,3 +9,19 @@ fi
 if [ -n "$TERM" ] && [ -z "$SSH_CLIENT" ]; then
 	setterm --blength 0
 fi
+
+# turn off beeps in Firefox
+if [ -f ~/.mozilla/firefox/profiles.ini ]; then
+	for PROFILE in $(sed -n 's/Path=//p' .mozilla/firefox/profiles.ini); do
+		PREFERENCES=~/.mozilla/firefox/"${PROFILE}"/user.js
+		if [ -f "${PREFERENCES}" ]; then
+			if grep accessibility.typeaheadfind.enablesound "${PREFERENCES}" >/dev/null; then
+				sed -i 's/\("accessibility.typeaheadfind.enablesound"\)[^)]*/\1, false/' "${PREFERENCES}"
+			else
+				echo 'user_pref("accessibility.typeaheadfind.enablesound", false);' >>"${PREFERENCES}"
+			fi
+		else
+			echo 'user_pref("accessibility.typeaheadfind.enablesound", false);' >>"${PREFERENCES}"
+		fi
+	done
+fi
