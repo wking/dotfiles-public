@@ -24,6 +24,7 @@ alias w3mg='w3m http://www.google.com/'
 alias oggr='ogg123 -qb 500' # play ogg radio streams (quiet, big input buffer)
 
 # Alias useful one-liners & common commands
+alias cdcwd='cd $(realpath "${PWD}")'
 alias findex='find . -perm -u+x ! -type d'
 alias git-blame-author='git blame sudoku.c | sed "s/^[^(]*//" | sed "s/ [0-9]\{4\}-[^)]*//" | less'
 alias sortdat='find . -printf "%TY-%Tm-%Td+%TH:%TM:%TS %h/%f\n" | sort -n'
