@@ -1,4 +1,5 @@
-if [ "${OS}" != 'Gentoo' ] && [ "${OS}" != 'Gentoo Prefix' ]; then
+if test "${OS}" != gentoo
+then
 	use_color=false
 	
 	# Set colorful PS1 only on colorful terminals.

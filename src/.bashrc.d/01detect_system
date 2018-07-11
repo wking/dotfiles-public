@@ -3,20 +3,11 @@
 # This makes it easy to adjust script locations and so forth to match
 # your system's file placement and other quirks.
 
-if [ -z "${OS}" ]; then
+if test -z "${OS}"; then
 	export OS='UNKNOWN'
-	if [ -f '/etc/make.conf' ] || [ -f '/etc/portage/make.conf' ]; then
-		export OS='Gentoo'
-	elif [ "${SHELL#*gentoo}" != "${SHELL}" ]; then  # assumes 'gentoo' in prefix
-		export OS='Gentoo Prefix'
-	elif grep -i '^ID=.*arch' /etc/os-release > /dev/null 2>&1; then
-		export OS='Arch'
-	elif grep -i debian /etc/issue > /dev/null 2>&1; then
-		export OS='Debian'
-	elif grep -i ubuntu /etc/issue > /dev/null 2>&1; then
-		export OS='Ubuntu'
-	elif grep -i fedora /etc/issue > /dev/null 2>&1; then
-		export OS='Fedora'
+	_OS="$(source /etc/os-release && echo "${ID}")"
+	if test -n "_OS"; then
+		export OS="${_OS}"
 	elif grep -i sunos /etc/motd > /dev/null 2>&1; then
 		export OS='SunOS'
 	else

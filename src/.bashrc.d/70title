@@ -1,4 +1,5 @@
-if [ "${OS}" != 'Gentoo' ] && [ "${OS}" != 'Gentoo Prefix' ]; then
+if test "${OS}" != gentoo
+then
 	# Change the window title of X terminals 
 	case ${TERM} in
 		xterm*|rxvt*|Eterm|aterm|kterm|gnome*|interix)

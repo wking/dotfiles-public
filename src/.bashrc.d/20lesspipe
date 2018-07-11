@@ -1,6 +1,7 @@
 # make less more friendly for non-text input files, see lesspipe(1)
 # (Debian-based systems only)
 
-if [ "${OS}" = "Debian" ] || [ "${OS}" = "Ubuntu" ]; then
+if test "${OS}" = debian -o "${OS}" = ubuntu
+then
 	[ -x /usr/bin/lesspipe ] && eval "$(lesspipe)"
 fi

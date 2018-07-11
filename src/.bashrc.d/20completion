@@ -3,7 +3,8 @@
 # You don't need to enable this if it's already enabled globally for
 # your system.
 
-if [ "${OS}" = 'Gentoo' ]; then
+if test "${OS}" = gentoo
+then
 	# Gentoo-based systems 
 	#
 	# Bash completion comes from the 'app-shells/bash_completion' package,
@@ -12,7 +13,8 @@ if [ "${OS}" = 'Gentoo' ]; then
 	if [ -f /etc/profile.d/bash_completion.sh ]; then
 		. /etc/profile.d/bash_completion.sh
 	fi
-elif [ "${OS}" = 'Debian' ] || [ "${OS}" = 'Ubuntu' ]; then
+elif test "${OS}" = debian -o "${OS}" = ubuntu
+then
 	# Debian-based systems
 	#
 	# Bash completion comes from the 'bash' package, which stores the
