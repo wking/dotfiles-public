@@ -7,7 +7,7 @@ fi
 
 # turn of terminal beeps in the console, unless connecting via SSH
 if [ -n "$TERM" ] && [ -z "$SSH_CLIENT" ]; then
-	setterm --blength 0
+	setterm --blength 0 2>/dev/null || setterm -blength 0
 fi
 
 # turn off beeps in Firefox
