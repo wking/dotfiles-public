@@ -12,7 +12,7 @@ fi
 
 # turn off beeps in Firefox
 if [ -f ~/.mozilla/firefox/profiles.ini ]; then
-	for PROFILE in $(sed -n 's/Path=//p' .mozilla/firefox/profiles.ini); do
+	for PROFILE in $(sed -n 's/Path=//p' ~/.mozilla/firefox/profiles.ini); do
 		PREFERENCES=~/.mozilla/firefox/"${PROFILE}"/user.js
 		if [ -f "${PREFERENCES}" ]; then
 			if grep accessibility.typeaheadfind.enablesound "${PREFERENCES}" >/dev/null; then
